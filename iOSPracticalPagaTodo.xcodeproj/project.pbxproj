@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1255FE0C245654AE002CA513 /* PagaTodoDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE0B245654AE002CA513 /* PagaTodoDB.swift */; };
+		1255FE0F24565660002CA513 /* ContextDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE0E24565660002CA513 /* ContextDataBase.swift */; };
+		1255FE112456569E002CA513 /* BankEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE102456569E002CA513 /* BankEntities.swift */; };
+		1255FE14245658B7002CA513 /* BankItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE13245658B7002CA513 /* BankItemModel.swift */; };
+		1255FE1724567E6B002CA513 /* MenuStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1255FE1624567E6B002CA513 /* MenuStoryboard.storyboard */; };
+		1255FE1C24568321002CA513 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1255FE1824568321002CA513 /* Lato-Bold.ttf */; };
+		1255FE1D24568321002CA513 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1255FE1924568321002CA513 /* Lato-Light.ttf */; };
+		1255FE1E24568321002CA513 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1255FE1A24568321002CA513 /* Lato-Regular.ttf */; };
+		1255FE1F24568321002CA513 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1255FE1B24568321002CA513 /* Lato-Thin.ttf */; };
+		1255FE212456873B002CA513 /* BanksStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1255FE202456873B002CA513 /* BanksStoryboard.storyboard */; };
+		1255FE2524568F2A002CA513 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE2424568F2A002CA513 /* MenuViewController.swift */; };
+		1255FE2724569743002CA513 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE2624569743002CA513 /* BaseViewController.swift */; };
+		1255FE2924569870002CA513 /* BankFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE2824569870002CA513 /* BankFirstViewController.swift */; };
+		1255FE2B2456A68D002CA513 /* BankItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255FE2A2456A68D002CA513 /* BankItemTableViewCell.swift */; };
+		1258913E2453FC4300A9594A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258913D2453FC4300A9594A /* AppDelegate.swift */; };
+		125891402453FC4300A9594A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258913F2453FC4300A9594A /* SceneDelegate.swift */; };
+		125891422453FC4300A9594A /* BankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891412453FC4300A9594A /* BankListViewController.swift */; };
+		125891452453FC4300A9594A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125891432453FC4300A9594A /* Main.storyboard */; };
+		125891482453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125891462453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodeld */; };
+		1258914A2453FC4C00A9594A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125891492453FC4C00A9594A /* Assets.xcassets */; };
+		1258914D2453FC4C00A9594A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1258914B2453FC4C00A9594A /* LaunchScreen.storyboard */; };
+		125891582453FC4D00A9594A /* iOSPracticalPagaTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891572453FC4D00A9594A /* iOSPracticalPagaTodoTests.swift */; };
+		125891632453FC4D00A9594A /* iOSPracticalPagaTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891622453FC4D00A9594A /* iOSPracticalPagaTodoUITests.swift */; };
+		1258917B24540C4200A9594A /* BankListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258917A24540C4200A9594A /* BankListPresenter.swift */; };
+		125891852454127100A9594A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891812454127100A9594A /* JSON.swift */; };
+		125891862454127100A9594A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891822454127100A9594A /* Result.swift */; };
+		125891872454127100A9594A /* RestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891832454127100A9594A /* RestController.swift */; };
+		125891882454127100A9594A /* Deserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891842454127100A9594A /* Deserializer.swift */; };
+		1258918A245412D500A9594A /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12589189245412D500A9594A /* BaseAPI.swift */; };
+		1258918C2454147900A9594A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258918B2454147900A9594A /* Config.swift */; };
+		1258918E245414DD00A9594A /* PagaTodoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258918D245414DD00A9594A /* PagaTodoAPI.swift */; };
+		125891912454161300A9594A /* BankListObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125891902454161300A9594A /* BankListObjectResponse.swift */; };
+		12589193245416DB00A9594A /* GetBanksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12589192245416DB00A9594A /* GetBanksList.swift */; };
+		55C321DC65E6071BDFC9F6B5 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F91E3617107A417D99CB7 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework */; };
+		A5A0430843FEE9411C411561 /* Pods_iOSPracticalPagaTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866B04B5527F47409A5C03F9 /* Pods_iOSPracticalPagaTodo.framework */; };
+		AAFD5F1008B5379E15B21453 /* Pods_iOSPracticalPagaTodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8175CCDAF2EE16CBCAA31D2 /* Pods_iOSPracticalPagaTodoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		125891542453FC4D00A9594A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 125891322453FC4200A9594A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125891392453FC4300A9594A;
+			remoteInfo = iOSPracticalPagaTodo;
+		};
+		1258915F2453FC4D00A9594A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 125891322453FC4200A9594A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125891392453FC4300A9594A;
+			remoteInfo = iOSPracticalPagaTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089E6675B51A1F371BC3FFCB /* Pods-iOSPracticalPagaTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPracticalPagaTodo.debug.xcconfig"; path = "Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		1255FE0B245654AE002CA513 /* PagaTodoDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagaTodoDB.swift; sourceTree = "<group>"; };
+		1255FE0E24565660002CA513 /* ContextDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextDataBase.swift; sourceTree = "<group>"; };
+		1255FE102456569E002CA513 /* BankEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankEntities.swift; sourceTree = "<group>"; };
+		1255FE13245658B7002CA513 /* BankItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankItemModel.swift; sourceTree = "<group>"; };
+		1255FE1624567E6B002CA513 /* MenuStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuStoryboard.storyboard; sourceTree = "<group>"; };
+		1255FE1824568321002CA513 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		1255FE1924568321002CA513 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		1255FE1A24568321002CA513 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		1255FE1B24568321002CA513 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		1255FE202456873B002CA513 /* BanksStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BanksStoryboard.storyboard; sourceTree = "<group>"; };
+		1255FE2424568F2A002CA513 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1255FE2624569743002CA513 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1255FE2824569870002CA513 /* BankFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankFirstViewController.swift; sourceTree = "<group>"; };
+		1255FE2A2456A68D002CA513 /* BankItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankItemTableViewCell.swift; sourceTree = "<group>"; };
+		1258913A2453FC4300A9594A /* iOSPracticalPagaTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPracticalPagaTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1258913D2453FC4300A9594A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1258913F2453FC4300A9594A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		125891412453FC4300A9594A /* BankListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BankListViewController.swift; path = "../New Group/BankListViewController.swift"; sourceTree = "<group>"; };
+		125891442453FC4300A9594A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		125891472453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSPracticalPagaTodo.xcdatamodel; sourceTree = "<group>"; };
+		125891492453FC4C00A9594A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1258914C2453FC4C00A9594A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1258914E2453FC4C00A9594A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125891532453FC4D00A9594A /* iOSPracticalPagaTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPracticalPagaTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125891572453FC4D00A9594A /* iOSPracticalPagaTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPracticalPagaTodoTests.swift; sourceTree = "<group>"; };
+		125891592453FC4D00A9594A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1258915E2453FC4D00A9594A /* iOSPracticalPagaTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPracticalPagaTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125891622453FC4D00A9594A /* iOSPracticalPagaTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPracticalPagaTodoUITests.swift; sourceTree = "<group>"; };
+		125891642453FC4D00A9594A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1258917A24540C4200A9594A /* BankListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankListPresenter.swift; sourceTree = "<group>"; };
+		125891812454127100A9594A /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		125891822454127100A9594A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		125891832454127100A9594A /* RestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestController.swift; sourceTree = "<group>"; };
+		125891842454127100A9594A /* Deserializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deserializer.swift; sourceTree = "<group>"; };
+		12589189245412D500A9594A /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		1258918B2454147900A9594A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1258918D245414DD00A9594A /* PagaTodoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagaTodoAPI.swift; sourceTree = "<group>"; };
+		125891902454161300A9594A /* BankListObjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankListObjectResponse.swift; sourceTree = "<group>"; };
+		12589192245416DB00A9594A /* GetBanksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBanksList.swift; sourceTree = "<group>"; };
+		2B6A869F866CFCAE0C669B4D /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		866B04B5527F47409A5C03F9 /* Pods_iOSPracticalPagaTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPracticalPagaTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8175CCDAF2EE16CBCAA31D2 /* Pods_iOSPracticalPagaTodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPracticalPagaTodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA94D319DB49F9C2DA1E764 /* Pods-iOSPracticalPagaTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPracticalPagaTodo.release.xcconfig"; path = "Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo.release.xcconfig"; sourceTree = "<group>"; };
+		C0E0CDA09CAA6F08BD214AE5 /* Pods-iOSPracticalPagaTodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPracticalPagaTodoTests.release.xcconfig"; path = "Target Support Files/Pods-iOSPracticalPagaTodoTests/Pods-iOSPracticalPagaTodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F18F91E3617107A417D99CB7 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83D5BD18690E9909F953161 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2D5D429C00405F028C4091 /* Pods-iOSPracticalPagaTodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPracticalPagaTodoTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSPracticalPagaTodoTests/Pods-iOSPracticalPagaTodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125891372453FC4300A9594A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A0430843FEE9411C411561 /* Pods_iOSPracticalPagaTodo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125891502453FC4D00A9594A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFD5F1008B5379E15B21453 /* Pods_iOSPracticalPagaTodoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1258915B2453FC4D00A9594A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C321DC65E6071BDFC9F6B5 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1255FE0D24565577002CA513 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE102456569E002CA513 /* BankEntities.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1255FE1224565853002CA513 /* ResultsDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE13245658B7002CA513 /* BankItemModel.swift */,
+			);
+			path = ResultsDataBase;
+			sourceTree = "<group>";
+		};
+		1255FE1524567C97002CA513 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE1824568321002CA513 /* Lato-Bold.ttf */,
+				1255FE1924568321002CA513 /* Lato-Light.ttf */,
+				1255FE1A24568321002CA513 /* Lato-Regular.ttf */,
+				1255FE1B24568321002CA513 /* Lato-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1255FE2C24579C71002CA513 /* Banks */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE2824569870002CA513 /* BankFirstViewController.swift */,
+				125891412453FC4300A9594A /* BankListViewController.swift */,
+				1255FE2A2456A68D002CA513 /* BankItemTableViewCell.swift */,
+			);
+			path = Banks;
+			sourceTree = "<group>";
+		};
+		125891312453FC4200A9594A = {
+			isa = PBXGroup;
+			children = (
+				1258913C2453FC4300A9594A /* iOSPracticalPagaTodo */,
+				125891562453FC4D00A9594A /* iOSPracticalPagaTodoTests */,
+				125891612453FC4D00A9594A /* iOSPracticalPagaTodoUITests */,
+				1258913B2453FC4300A9594A /* Products */,
+				7D4D7446E0F392A8A189EAA8 /* Pods */,
+				E3015325C87EBB4836105F3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1258913B2453FC4300A9594A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1258913A2453FC4300A9594A /* iOSPracticalPagaTodo.app */,
+				125891532453FC4D00A9594A /* iOSPracticalPagaTodoTests.xctest */,
+				1258915E2453FC4D00A9594A /* iOSPracticalPagaTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1258913C2453FC4300A9594A /* iOSPracticalPagaTodo */ = {
+			isa = PBXGroup;
+			children = (
+				1258917C24540F0600A9594A /* Conections */,
+				125891702453FFD800A9594A /* Models */,
+				125891712454002800A9594A /* Views */,
+				125891722454003800A9594A /* Presenters */,
+				1258918B2454147900A9594A /* Config.swift */,
+				1258913D2453FC4300A9594A /* AppDelegate.swift */,
+				1258913F2453FC4300A9594A /* SceneDelegate.swift */,
+				125891492453FC4C00A9594A /* Assets.xcassets */,
+				1258914E2453FC4C00A9594A /* Info.plist */,
+				125891462453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodeld */,
+			);
+			path = iOSPracticalPagaTodo;
+			sourceTree = "<group>";
+		};
+		125891562453FC4D00A9594A /* iOSPracticalPagaTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				125891572453FC4D00A9594A /* iOSPracticalPagaTodoTests.swift */,
+				125891592453FC4D00A9594A /* Info.plist */,
+			);
+			path = iOSPracticalPagaTodoTests;
+			sourceTree = "<group>";
+		};
+		125891612453FC4D00A9594A /* iOSPracticalPagaTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				125891622453FC4D00A9594A /* iOSPracticalPagaTodoUITests.swift */,
+				125891642453FC4D00A9594A /* Info.plist */,
+			);
+			path = iOSPracticalPagaTodoUITests;
+			sourceTree = "<group>";
+		};
+		125891702453FFD800A9594A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE1224565853002CA513 /* ResultsDataBase */,
+				1258918F245415E800A9594A /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		125891712454002800A9594A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE1524567C97002CA513 /* Fonts */,
+				12589175245402A700A9594A /* XIBs */,
+				125891742454025700A9594A /* Storyboards */,
+				12589173245401B500A9594A /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		125891722454003800A9594A /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				1258917A24540C4200A9594A /* BankListPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		12589173245401B500A9594A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE2C24579C71002CA513 /* Banks */,
+				1255FE2424568F2A002CA513 /* MenuViewController.swift */,
+				1255FE2624569743002CA513 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		125891742454025700A9594A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				125891432453FC4300A9594A /* Main.storyboard */,
+				1258914B2453FC4C00A9594A /* LaunchScreen.storyboard */,
+				1255FE1624567E6B002CA513 /* MenuStoryboard.storyboard */,
+				1255FE202456873B002CA513 /* BanksStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		12589175245402A700A9594A /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		1258917C24540F0600A9594A /* Conections */ = {
+			isa = PBXGroup;
+			children = (
+				1258917D24540FB300A9594A /* Services */,
+				1258917E24540FD600A9594A /* Database */,
+			);
+			path = Conections;
+			sourceTree = "<group>";
+		};
+		1258917D24540FB300A9594A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1258917F2454108E00A9594A /* API */,
+				125891802454124C00A9594A /* REST */,
+				1258918D245414DD00A9594A /* PagaTodoAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1258917E24540FD600A9594A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1255FE0D24565577002CA513 /* Entities */,
+				1255FE0B245654AE002CA513 /* PagaTodoDB.swift */,
+				1255FE0E24565660002CA513 /* ContextDataBase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		1258917F2454108E00A9594A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12589192245416DB00A9594A /* GetBanksList.swift */,
+				12589189245412D500A9594A /* BaseAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		125891802454124C00A9594A /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				125891842454127100A9594A /* Deserializer.swift */,
+				125891812454127100A9594A /* JSON.swift */,
+				125891832454127100A9594A /* RestController.swift */,
+				125891822454127100A9594A /* Result.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		1258918F245415E800A9594A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				125891902454161300A9594A /* BankListObjectResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		7D4D7446E0F392A8A189EAA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				089E6675B51A1F371BC3FFCB /* Pods-iOSPracticalPagaTodo.debug.xcconfig */,
+				ADA94D319DB49F9C2DA1E764 /* Pods-iOSPracticalPagaTodo.release.xcconfig */,
+				2B6A869F866CFCAE0C669B4D /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig */,
+				F83D5BD18690E9909F953161 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig */,
+				FC2D5D429C00405F028C4091 /* Pods-iOSPracticalPagaTodoTests.debug.xcconfig */,
+				C0E0CDA09CAA6F08BD214AE5 /* Pods-iOSPracticalPagaTodoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3015325C87EBB4836105F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866B04B5527F47409A5C03F9 /* Pods_iOSPracticalPagaTodo.framework */,
+				F18F91E3617107A417D99CB7 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework */,
+				A8175CCDAF2EE16CBCAA31D2 /* Pods_iOSPracticalPagaTodoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		125891392453FC4300A9594A /* iOSPracticalPagaTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125891672453FC4D00A9594A /* Build configuration list for PBXNativeTarget "iOSPracticalPagaTodo" */;
+			buildPhases = (
+				3F71CFA90AF61E420740EC8F /* [CP] Check Pods Manifest.lock */,
+				125891362453FC4300A9594A /* Sources */,
+				125891372453FC4300A9594A /* Frameworks */,
+				125891382453FC4300A9594A /* Resources */,
+				2438B3AF10F8784EF28187BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPracticalPagaTodo;
+			productName = iOSPracticalPagaTodo;
+			productReference = 1258913A2453FC4300A9594A /* iOSPracticalPagaTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		125891522453FC4D00A9594A /* iOSPracticalPagaTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1258916A2453FC4D00A9594A /* Build configuration list for PBXNativeTarget "iOSPracticalPagaTodoTests" */;
+			buildPhases = (
+				A610B384E6FD28DB316B40C7 /* [CP] Check Pods Manifest.lock */,
+				1258914F2453FC4D00A9594A /* Sources */,
+				125891502453FC4D00A9594A /* Frameworks */,
+				125891512453FC4D00A9594A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				125891552453FC4D00A9594A /* PBXTargetDependency */,
+			);
+			name = iOSPracticalPagaTodoTests;
+			productName = iOSPracticalPagaTodoTests;
+			productReference = 125891532453FC4D00A9594A /* iOSPracticalPagaTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1258915D2453FC4D00A9594A /* iOSPracticalPagaTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1258916D2453FC4D00A9594A /* Build configuration list for PBXNativeTarget "iOSPracticalPagaTodoUITests" */;
+			buildPhases = (
+				F0E636111315D98EDA24D227 /* [CP] Check Pods Manifest.lock */,
+				1258915A2453FC4D00A9594A /* Sources */,
+				1258915B2453FC4D00A9594A /* Frameworks */,
+				1258915C2453FC4D00A9594A /* Resources */,
+				CA374671538C47B17EEC3B12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				125891602453FC4D00A9594A /* PBXTargetDependency */,
+			);
+			name = iOSPracticalPagaTodoUITests;
+			productName = iOSPracticalPagaTodoUITests;
+			productReference = 1258915E2453FC4D00A9594A /* iOSPracticalPagaTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125891322453FC4200A9594A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = davidManterola;
+				TargetAttributes = {
+					125891392453FC4300A9594A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					125891522453FC4D00A9594A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 125891392453FC4300A9594A;
+					};
+					1258915D2453FC4D00A9594A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 125891392453FC4300A9594A;
+					};
+				};
+			};
+			buildConfigurationList = 125891352453FC4200A9594A /* Build configuration list for PBXProject "iOSPracticalPagaTodo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 125891312453FC4200A9594A;
+			productRefGroup = 1258913B2453FC4300A9594A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125891392453FC4300A9594A /* iOSPracticalPagaTodo */,
+				125891522453FC4D00A9594A /* iOSPracticalPagaTodoTests */,
+				1258915D2453FC4D00A9594A /* iOSPracticalPagaTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125891382453FC4300A9594A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1258914D2453FC4C00A9594A /* LaunchScreen.storyboard in Resources */,
+				1255FE1F24568321002CA513 /* Lato-Thin.ttf in Resources */,
+				1255FE1C24568321002CA513 /* Lato-Bold.ttf in Resources */,
+				1258914A2453FC4C00A9594A /* Assets.xcassets in Resources */,
+				1255FE1D24568321002CA513 /* Lato-Light.ttf in Resources */,
+				1255FE1E24568321002CA513 /* Lato-Regular.ttf in Resources */,
+				1255FE1724567E6B002CA513 /* MenuStoryboard.storyboard in Resources */,
+				125891452453FC4300A9594A /* Main.storyboard in Resources */,
+				1255FE212456873B002CA513 /* BanksStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125891512453FC4D00A9594A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1258915C2453FC4D00A9594A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2438B3AF10F8784EF28187BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F71CFA90AF61E420740EC8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPracticalPagaTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A610B384E6FD28DB316B40C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPracticalPagaTodoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA374671538C47B17EEC3B12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E636111315D98EDA24D227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125891362453FC4300A9594A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255FE14245658B7002CA513 /* BankItemModel.swift in Sources */,
+				125891422453FC4300A9594A /* BankListViewController.swift in Sources */,
+				1258918E245414DD00A9594A /* PagaTodoAPI.swift in Sources */,
+				1255FE0C245654AE002CA513 /* PagaTodoDB.swift in Sources */,
+				1255FE112456569E002CA513 /* BankEntities.swift in Sources */,
+				1255FE2724569743002CA513 /* BaseViewController.swift in Sources */,
+				1255FE2B2456A68D002CA513 /* BankItemTableViewCell.swift in Sources */,
+				125891872454127100A9594A /* RestController.swift in Sources */,
+				1258913E2453FC4300A9594A /* AppDelegate.swift in Sources */,
+				1258917B24540C4200A9594A /* BankListPresenter.swift in Sources */,
+				1258918C2454147900A9594A /* Config.swift in Sources */,
+				125891852454127100A9594A /* JSON.swift in Sources */,
+				1255FE2524568F2A002CA513 /* MenuViewController.swift in Sources */,
+				125891862454127100A9594A /* Result.swift in Sources */,
+				12589193245416DB00A9594A /* GetBanksList.swift in Sources */,
+				1255FE0F24565660002CA513 /* ContextDataBase.swift in Sources */,
+				125891482453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodeld in Sources */,
+				125891912454161300A9594A /* BankListObjectResponse.swift in Sources */,
+				125891882454127100A9594A /* Deserializer.swift in Sources */,
+				125891402453FC4300A9594A /* SceneDelegate.swift in Sources */,
+				1258918A245412D500A9594A /* BaseAPI.swift in Sources */,
+				1255FE2924569870002CA513 /* BankFirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1258914F2453FC4D00A9594A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125891582453FC4D00A9594A /* iOSPracticalPagaTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1258915A2453FC4D00A9594A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125891632453FC4D00A9594A /* iOSPracticalPagaTodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		125891552453FC4D00A9594A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 125891392453FC4300A9594A /* iOSPracticalPagaTodo */;
+			targetProxy = 125891542453FC4D00A9594A /* PBXContainerItemProxy */;
+		};
+		125891602453FC4D00A9594A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 125891392453FC4300A9594A /* iOSPracticalPagaTodo */;
+			targetProxy = 1258915F2453FC4D00A9594A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		125891432453FC4300A9594A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125891442453FC4300A9594A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1258914B2453FC4C00A9594A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1258914C2453FC4C00A9594A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125891652453FC4D00A9594A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		125891662453FC4D00A9594A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		125891682453FC4D00A9594A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089E6675B51A1F371BC3FFCB /* Pods-iOSPracticalPagaTodo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPracticalPagaTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidManterola.iOSPracticalPagaTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		125891692453FC4D00A9594A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA94D319DB49F9C2DA1E764 /* Pods-iOSPracticalPagaTodo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPracticalPagaTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidManterola.iOSPracticalPagaTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1258916B2453FC4D00A9594A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2D5D429C00405F028C4091 /* Pods-iOSPracticalPagaTodoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPracticalPagaTodoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidManterola.iOSPracticalPagaTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSPracticalPagaTodo.app/iOSPracticalPagaTodo";
+			};
+			name = Debug;
+		};
+		1258916C2453FC4D00A9594A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E0CDA09CAA6F08BD214AE5 /* Pods-iOSPracticalPagaTodoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPracticalPagaTodoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidManterola.iOSPracticalPagaTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSPracticalPagaTodo.app/iOSPracticalPagaTodo";
+			};
+			name = Release;
+		};
+		1258916E2453FC4D00A9594A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6A869F866CFCAE0C669B4D /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPracticalPagaTodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidManterola.iOSPracticalPagaTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSPracticalPagaTodo;
+			};
+			name = Debug;
+		};
+		1258916F2453FC4D00A9594A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83D5BD18690E9909F953161 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPracticalPagaTodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidManterola.iOSPracticalPagaTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSPracticalPagaTodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125891352453FC4200A9594A /* Build configuration list for PBXProject "iOSPracticalPagaTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125891652453FC4D00A9594A /* Debug */,
+				125891662453FC4D00A9594A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125891672453FC4D00A9594A /* Build configuration list for PBXNativeTarget "iOSPracticalPagaTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125891682453FC4D00A9594A /* Debug */,
+				125891692453FC4D00A9594A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1258916A2453FC4D00A9594A /* Build configuration list for PBXNativeTarget "iOSPracticalPagaTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1258916B2453FC4D00A9594A /* Debug */,
+				1258916C2453FC4D00A9594A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1258916D2453FC4D00A9594A /* Build configuration list for PBXNativeTarget "iOSPracticalPagaTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1258916E2453FC4D00A9594A /* Debug */,
+				1258916F2453FC4D00A9594A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		125891462453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				125891472453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodel */,
+			);
+			currentVersion = 125891472453FC4300A9594A /* iOSPracticalPagaTodo.xcdatamodel */;
+			path = iOSPracticalPagaTodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 125891322453FC4200A9594A /* Project object */;
+}

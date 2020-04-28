@@ -1,0 +1,1271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF830B8FAE745C8127DBD65371918C5 /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABDA52AACFB3FE069354A4E8497C638 /* KVNProgressView.xib */; };
+		0B0E679CB9DBC7CCD78297361B4EF2C2 /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E989351A9D8757B3D9887A785D0E02E /* KVNProgress.m */; };
+		0DB327E2223491A7FF9A9A8A1FDBA67D /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87070AFA31172D08ECAB0BB9ED316CF8 /* Delegate.swift */; };
+		0F0CF6FD6C9EB7517827F871937EA0CA /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5084A692BBAB278B715A54D83BF23BB9 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-dummy.m */; };
+		1DBE418E148DF8B9266ADABF21EDD40A /* KVNRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EADFB53B5993A23C5E18F6D7DE2FAFB6 /* KVNRotationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2075F989FDDA79DEDF189451AF78C1B9 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = A67679F4BD60387CFAB588E6E31AC56B /* UIImage+KVNEmpty.m */; };
+		207C84743FE7C82BCC63DFDC1C27D80A /* TransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC5BD91772915D2BD71398DD1B33FA /* TransitionContext.swift */; };
+		23F2720A4168CAD9ADD9EDF5A6438497 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5652EDE5AD370CCB65474F0B55AB40 /* Preferences.swift */; };
+		245D771A7E9966CDC04382FDF1B29A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */; };
+		28C3365170BA7B550FB3780B91261255 /* UIImage+KVNEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E6EFB3329F3ED1BE766AF8C54395DC /* UIImage+KVNEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3029D103AC57C082D903184C272D2003 /* UIColor+KVNContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E545BF19DAC5D4D441A7A38788F002 /* UIColor+KVNContrast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D538D0E59F4850FB5EC33BFD1A008F /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C05B128E25114985C44A63F867EE9 /* UIImage+KVNImageEffects.m */; };
+		331E92669A5C7A8B36B4E1329E288E34 /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5B21F9E16FE224F4F1A67018CD699 /* Segue.swift */; };
+		3393F2A5744BAF2A3B8E8F25F20D29AB /* SideMenuSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F976CA8EFC9E9FAA27232E3BA437BA3F /* SideMenuSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4173DFD7A2C868F1139B6A6A2012640C /* UIImage+KVNImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = A21965D82FF333D06ED154153CD4AC2E /* UIImage+KVNImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467F8F1CBD7C6CA5EE431B2E01F22227 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7660FCC50C207B56A05A847FB32490B9 /* StatusBar.swift */; };
+		48A6A72E28762A18E4609864075FF9AC /* SideMenuSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6867E19B04E29F2AAEF14F61D2B71CF /* SideMenuSwift-dummy.m */; };
+		4E5BD4403829B8607F8C5777E937BA2E /* BasicTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9520F23B70F3C95454D7C7F5B5346 /* BasicTransitionAnimator.swift */; };
+		77367645EB51C4B6E46E8528F561679B /* Pods-iOSPracticalPagaTodo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01118BDA8C8F5F94B1693DAF05BBB602 /* Pods-iOSPracticalPagaTodo-dummy.m */; };
+		7BCDB5F48259127CEA5DD3C027A77571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */; };
+		7CE107E210672253FF8918AAF737EBB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815E37F8991601F532F1010214B5C5A2 /* QuartzCore.framework */; };
+		80AE6B2DBC484FFB287766467F9E41B1 /* KVNRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FC95447A209E48E2A735A7C07387AC /* KVNRotationViewController.m */; };
+		841985EBB92AA58677B9F2FE4341CB00 /* KVNProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7D6FCE64AE82DD3F64B959932045F6 /* KVNProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D7E528DC9BB42437F8ED4B2BD410FAE /* UIViewController+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3F75C3ECA39856EE4D7BF7C35E212 /* UIViewController+SideMenu.swift */; };
+		9EA4F8BFC05AE48B88B7E7925116734E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */; };
+		9FE2A50C147598E1423AC440502524E0 /* Pods-iOSPracticalPagaTodo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD866B124AD4BB70760CEBD55AF2D9A /* Pods-iOSPracticalPagaTodo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54E7DB163A4617D92401B596F4487CA /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEBDA4F5944855612BDC3D3EAE8099 /* SideMenuController.swift */; };
+		B75A5D14A0EC711F013C046149750C7E /* Pods-iOSPracticalPagaTodoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5424E9809CFA5F7C31FEA5A174837349 /* Pods-iOSPracticalPagaTodoTests-dummy.m */; };
+		B9220D02A5299E366EC0C766B062E45F /* SideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA2E9CF38A87D290404CE5E52DF16E2 /* SideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2CAFD51455D089D5F0F75E40F34CE6D /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5887BEBD5C65CABA2AC3E288F2116 /* KVNProgressConfiguration.m */; };
+		CDD98EEA92CFC6BB90D2E33B04466811 /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B4755326B5C4390A3A18459FF708F /* UIView+Container.swift */; };
+		D204F2E160F00B7F43073CF80C64FC90 /* Pods-iOSPracticalPagaTodoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF98874758ACAD16FE4832B85C19440 /* Pods-iOSPracticalPagaTodoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D7D4E902978EA68BEA6FCA2497E452 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A539E347C1BC1366567C5626A7A82B /* UIColor+KVNContrast.m */; };
+		D6B18C75D23CCC757E7FED786AC0480D /* UIViewController+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4936DE1B0EB64EF35EA476A5DF7A9 /* UIViewController+Container.swift */; };
+		DDF592A96B4BFDAEFFFDE07C341DEBC6 /* KVNProgressConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C5555EAFB93105D028F780B2EF02B913 /* KVNProgressConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0EA13C9C5FEEF39C000EBB78517709C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7461359BE12F7FF6436C5D9D538D98 /* GLKit.framework */; };
+		EC45FF6FE26C0C748445DF0F7915D63C /* KVNProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 79232D7ED0C185BE0619F6CBDF5C7E7C /* KVNProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C418270E061A31B67F87829DABF2A2 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B3A7C37ABFE3081587AFC35984216E /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55C23BAA32846BB0CE14B0F1736B544 /* KVNProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A439C43E5E7BE05CCDCC548C2021 /* KVNProgress-dummy.m */; };
+		FC5732F687223AE18A754277F71D8453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */; };
+		FEDCC9AA98659CACFC4CF1DB6691B250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A17E8E4F3E0714C72A804D58442F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA20ADB1B56D96C66C8982FAE6F2AEF;
+			remoteInfo = KVNProgress;
+		};
+		35F5F09C6CD2B03168E43392D1E20B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873002DBC460B8090EFD7E391AA04141;
+			remoteInfo = SideMenuSwift;
+		};
+		70FCDC5D343F4293306AC8E084827D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2F41A64A77B23B1A83D15750DE4281;
+			remoteInfo = "Pods-iOSPracticalPagaTodo";
+		};
+		B01B278861ADA45F2829F43737823B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873002DBC460B8090EFD7E391AA04141;
+			remoteInfo = SideMenuSwift;
+		};
+		FEF4FC28EBDA5F53F4D20F3669E6A5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA20ADB1B56D96C66C8982FAE6F2AEF;
+			remoteInfo = KVNProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01118BDA8C8F5F94B1693DAF05BBB602 /* Pods-iOSPracticalPagaTodo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSPracticalPagaTodo-dummy.m"; sourceTree = "<group>"; };
+		0650D7FDC78C5A4CD4500003A3A056E2 /* KVNProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVNProgress.debug.xcconfig; sourceTree = "<group>"; };
+		0672CDFAABA230F0568C0E71D1CE254B /* SideMenuSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuSwift.debug.xcconfig; sourceTree = "<group>"; };
+		0A10E1FACF8462FA3AB57569D0C3F930 /* SideMenuSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuSwift-prefix.pch"; sourceTree = "<group>"; };
+		0A16A439C43E5E7BE05CCDCC548C2021 /* KVNProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVNProgress-dummy.m"; sourceTree = "<group>"; };
+		0AFB44C84FE89534A33745C2B067D42E /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-Info.plist"; sourceTree = "<group>"; };
+		0AFC5BD91772915D2BD71398DD1B33FA /* TransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContext.swift; path = Sources/SideMenu/TransitionContext.swift; sourceTree = "<group>"; };
+		11B4936DE1B0EB64EF35EA476A5DF7A9 /* UIViewController+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Container.swift"; path = "Sources/SideMenu/UIViewController+Container.swift"; sourceTree = "<group>"; };
+		154FB6240DD89A28A8AEB3467F64455E /* SideMenuSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenuSwift-Info.plist"; sourceTree = "<group>"; };
+		18C19E6A7018F2BB1A6B69B119F26BC2 /* Pods-iOSPracticalPagaTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPracticalPagaTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		1D8C38B17482FA28A3B77E56A2404A37 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E989351A9D8757B3D9887A785D0E02E /* KVNProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgress.m; path = KVNProgress/Classes/KVNProgress.m; sourceTree = "<group>"; };
+		1FD866B124AD4BB70760CEBD55AF2D9A /* Pods-iOSPracticalPagaTodo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSPracticalPagaTodo-umbrella.h"; sourceTree = "<group>"; };
+		20B3A7C37ABFE3081587AFC35984216E /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h"; sourceTree = "<group>"; };
+		20FF7394A886F82D4F27AEBC12A61DE7 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25DAA9AD178CAD0747DB4673EF3A44E6 /* Pods_iOSPracticalPagaTodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSPracticalPagaTodoTests.framework; path = "Pods-iOSPracticalPagaTodoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6604567C675F74DF30829DAFD4A788 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECD76795F802659A669B16955CD36E8 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		415C3FEC0AA0A352D7E18756668C020C /* Pods-iOSPracticalPagaTodo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPracticalPagaTodo-Info.plist"; sourceTree = "<group>"; };
+		43E545BF19DAC5D4D441A7A38788F002 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KVNContrast.h"; path = "KVNProgress/Categories/UIColor+KVNContrast.h"; sourceTree = "<group>"; };
+		4549AA0A4B4AA84CADE5928F8D39623C /* Pods-iOSPracticalPagaTodo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSPracticalPagaTodo.modulemap"; sourceTree = "<group>"; };
+		468B3D1ECC1A13B9CF2A33020F814D42 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.modulemap"; sourceTree = "<group>"; };
+		4A3D21205DC389384E3663B59F252FEF /* SideMenuSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenuSwift.modulemap; sourceTree = "<group>"; };
+		4B5652EDE5AD370CCB65474F0B55AB40 /* Preferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = Sources/SideMenu/Preferences.swift; sourceTree = "<group>"; };
+		4F78E8073CDA30C65C326E7126C8BA65 /* KVNProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVNProgress-Info.plist"; sourceTree = "<group>"; };
+		5084A692BBAB278B715A54D83BF23BB9 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-dummy.m"; sourceTree = "<group>"; };
+		511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5424E9809CFA5F7C31FEA5A174837349 /* Pods-iOSPracticalPagaTodoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSPracticalPagaTodoTests-dummy.m"; sourceTree = "<group>"; };
+		559C05B128E25114985C44A63F867EE9 /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNImageEffects.m"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
+		5BA5887BEBD5C65CABA2AC3E288F2116 /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgressConfiguration.m; path = KVNProgress/Classes/KVNProgressConfiguration.m; sourceTree = "<group>"; };
+		5C11375677FF17A9E05AA7677642D3E2 /* Pods-iOSPracticalPagaTodo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPracticalPagaTodo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6180D9EAFB29DE1DF5B6B4C5F3DD8184 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenuSwift.framework; path = SideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B714170D867817158B9AA681D15F51 /* KVNProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVNProgress.modulemap; sourceTree = "<group>"; };
+		6BA2E9CF38A87D290404CE5E52DF16E2 /* SideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SideMenu.h; path = Sources/SideMenu/SideMenu.h; sourceTree = "<group>"; };
+		70CA8F0EF7C2615F496F4999BF4E5F15 /* Pods-iOSPracticalPagaTodo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSPracticalPagaTodo-frameworks.sh"; sourceTree = "<group>"; };
+		745EA8E5E37F19B3632FA9F91C0A53BF /* Pods-iOSPracticalPagaTodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPracticalPagaTodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7660FCC50C207B56A05A847FB32490B9 /* StatusBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBar.swift; path = Sources/SideMenu/StatusBar.swift; sourceTree = "<group>"; };
+		79232D7ED0C185BE0619F6CBDF5C7E7C /* KVNProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgress.h; path = KVNProgress/Classes/KVNProgress.h; sourceTree = "<group>"; };
+		7BD9B04706A87AAE19799D34984F439B /* Pods-iOSPracticalPagaTodoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSPracticalPagaTodoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		815E37F8991601F532F1010214B5C5A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		866B85F0D95EF37C3EEA93713B1543D7 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework; path = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87070AFA31172D08ECAB0BB9ED316CF8 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/SideMenu/Delegate.swift; sourceTree = "<group>"; };
+		91EE8B7F51B159858448116350D3C191 /* Pods-iOSPracticalPagaTodoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPracticalPagaTodoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96666D2D88C4B99EACCB70D2EE7424BC /* Pods-iOSPracticalPagaTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPracticalPagaTodo.release.xcconfig"; sourceTree = "<group>"; };
+		9CCBF580157A9793A73B6760A295942A /* Pods-iOSPracticalPagaTodo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSPracticalPagaTodo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9B4755326B5C4390A3A18459FF708F /* UIView+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Container.swift"; path = "Sources/SideMenu/UIView+Container.swift"; sourceTree = "<group>"; };
+		A1A5B21F9E16FE224F4F1A67018CD699 /* Segue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segue.swift; path = Sources/SideMenu/Segue.swift; sourceTree = "<group>"; };
+		A21965D82FF333D06ED154153CD4AC2E /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNImageEffects.h"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		A67679F4BD60387CFAB588E6E31AC56B /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNEmpty.m"; path = "KVNProgress/Categories/UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
+		A7E6EFB3329F3ED1BE766AF8C54395DC /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNEmpty.h"; path = "KVNProgress/Categories/UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
+		A7FEBDA4F5944855612BDC3D3EAE8099 /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = Sources/SideMenu/SideMenuController.swift; sourceTree = "<group>"; };
+		AABDA52AACFB3FE069354A4E8497C638 /* KVNProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVNProgressView.xib; path = KVNProgress/Resources/KVNProgressView.xib; sourceTree = "<group>"; };
+		AEB819DEEFAD5E3A18D3ABD0094CC37C /* KVNProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVNProgress.release.xcconfig; sourceTree = "<group>"; };
+		B1784DD34022A85AB3D370A8F86FF16B /* Pods-iOSPracticalPagaTodoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSPracticalPagaTodoTests.modulemap"; sourceTree = "<group>"; };
+		B34CBE4F8D0BB76939C57610B88AC9B1 /* KVNProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVNProgress.framework; path = KVNProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C2DB0801C0573448DBF39E0737DBD0 /* KVNProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-prefix.pch"; sourceTree = "<group>"; };
+		B463BF17715A51600A6C55D933BD3A40 /* SideMenuSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuSwift.release.xcconfig; sourceTree = "<group>"; };
+		B4A539E347C1BC1366567C5626A7A82B /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KVNContrast.m"; path = "KVNProgress/Categories/UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		B4FC95447A209E48E2A735A7C07387AC /* KVNRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNRotationViewController.m; path = KVNProgress/Classes/KVNRotationViewController.m; sourceTree = "<group>"; };
+		BAC3F75C3ECA39856EE4D7BF7C35E212 /* UIViewController+SideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+SideMenu.swift"; path = "Sources/SideMenu/UIViewController+SideMenu.swift"; sourceTree = "<group>"; };
+		BEF98874758ACAD16FE4832B85C19440 /* Pods-iOSPracticalPagaTodoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSPracticalPagaTodoTests-umbrella.h"; sourceTree = "<group>"; };
+		C5555EAFB93105D028F780B2EF02B913 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgressConfiguration.h; path = KVNProgress/Classes/KVNProgressConfiguration.h; sourceTree = "<group>"; };
+		C6867E19B04E29F2AAEF14F61D2B71CF /* SideMenuSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuSwift-dummy.m"; sourceTree = "<group>"; };
+		C77D59412FB6BEDC59A45A033AA3E028 /* Pods-iOSPracticalPagaTodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPracticalPagaTodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC44C5772F6B2002AD5FE3ABC990C9F4 /* Pods-iOSPracticalPagaTodoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPracticalPagaTodoTests-Info.plist"; sourceTree = "<group>"; };
+		DA7461359BE12F7FF6436C5D9D538D98 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		EADFB53B5993A23C5E18F6D7DE2FAFB6 /* KVNRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNRotationViewController.h; path = KVNProgress/Classes/KVNRotationViewController.h; sourceTree = "<group>"; };
+		EEA9520F23B70F3C95454D7C7F5B5346 /* BasicTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicTransitionAnimator.swift; path = Sources/SideMenu/BasicTransitionAnimator.swift; sourceTree = "<group>"; };
+		F525803DFC61DC713C0CC701809FA867 /* Pods_iOSPracticalPagaTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSPracticalPagaTodo.framework; path = "Pods-iOSPracticalPagaTodo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F976CA8EFC9E9FAA27232E3BA437BA3F /* SideMenuSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuSwift-umbrella.h"; sourceTree = "<group>"; };
+		FF7D6FCE64AE82DD3F64B959932045F6 /* KVNProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1868DEB68A49BC177D3F3AE4660F6198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDCC9AA98659CACFC4CF1DB6691B250 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A292964E22200D70B63A17569C67CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5732F687223AE18A754277F71D8453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D183AA1E3664ED788AE3F0230290E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCDB5F48259127CEA5DD3C027A77571 /* Foundation.framework in Frameworks */,
+				E0EA13C9C5FEEF39C000EBB78517709C /* GLKit.framework in Frameworks */,
+				7CE107E210672253FF8918AAF737EBB3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FFB275935889A271ACCDAEEF6EB9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245D771A7E9966CDC04382FDF1B29A0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A200DAF4321DD0A7CD75F25053FF5611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA4F8BFC05AE48B88B7E7925116734E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE31ECF8415452FAE369FD5D1ED447 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B502C6D0E08497C72DDA1A756B63E2C /* SideMenuSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9520F23B70F3C95454D7C7F5B5346 /* BasicTransitionAnimator.swift */,
+				87070AFA31172D08ECAB0BB9ED316CF8 /* Delegate.swift */,
+				4B5652EDE5AD370CCB65474F0B55AB40 /* Preferences.swift */,
+				A1A5B21F9E16FE224F4F1A67018CD699 /* Segue.swift */,
+				6BA2E9CF38A87D290404CE5E52DF16E2 /* SideMenu.h */,
+				A7FEBDA4F5944855612BDC3D3EAE8099 /* SideMenuController.swift */,
+				7660FCC50C207B56A05A847FB32490B9 /* StatusBar.swift */,
+				0AFC5BD91772915D2BD71398DD1B33FA /* TransitionContext.swift */,
+				9F9B4755326B5C4390A3A18459FF708F /* UIView+Container.swift */,
+				11B4936DE1B0EB64EF35EA476A5DF7A9 /* UIViewController+Container.swift */,
+				BAC3F75C3ECA39856EE4D7BF7C35E212 /* UIViewController+SideMenu.swift */,
+				A5D33FCA6B9D97357CE83408901C62C0 /* Support Files */,
+			);
+			name = SideMenuSwift;
+			path = SideMenuSwift;
+			sourceTree = "<group>";
+		};
+		18434956431EBCABE3D558CCEA0BE785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34CBE4F8D0BB76939C57610B88AC9B1 /* KVNProgress.framework */,
+				F525803DFC61DC713C0CC701809FA867 /* Pods_iOSPracticalPagaTodo.framework */,
+				866B85F0D95EF37C3EEA93713B1543D7 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework */,
+				25DAA9AD178CAD0747DB4673EF3A44E6 /* Pods_iOSPracticalPagaTodoTests.framework */,
+				6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BB39E868E47297A30590C797484A273 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				468B3D1ECC1A13B9CF2A33020F814D42 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.modulemap */,
+				20FF7394A886F82D4F27AEBC12A61DE7 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-acknowledgements.markdown */,
+				3ECD76795F802659A669B16955CD36E8 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-acknowledgements.plist */,
+				5084A692BBAB278B715A54D83BF23BB9 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-dummy.m */,
+				6180D9EAFB29DE1DF5B6B4C5F3DD8184 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-frameworks.sh */,
+				0AFB44C84FE89534A33745C2B067D42E /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-Info.plist */,
+				20B3A7C37ABFE3081587AFC35984216E /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h */,
+				3C6604567C675F74DF30829DAFD4A788 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig */,
+				1D8C38B17482FA28A3B77E56A2404A37 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig */,
+			);
+			name = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests";
+			path = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests";
+			sourceTree = "<group>";
+		};
+		21BCF91E2244C22D3DF350277CA047CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABDA52AACFB3FE069354A4E8497C638 /* KVNProgressView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3054F2338D0FA53E78176F78CE31B0A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B911796C3BD7A15F9D525D2706DF879D /* KVNProgress */,
+				0B502C6D0E08497C72DDA1A756B63E2C /* SideMenuSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C645AC9C443A90EBF3D1AA8EA0E1EAF /* Pods-iOSPracticalPagaTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1784DD34022A85AB3D370A8F86FF16B /* Pods-iOSPracticalPagaTodoTests.modulemap */,
+				7BD9B04706A87AAE19799D34984F439B /* Pods-iOSPracticalPagaTodoTests-acknowledgements.markdown */,
+				91EE8B7F51B159858448116350D3C191 /* Pods-iOSPracticalPagaTodoTests-acknowledgements.plist */,
+				5424E9809CFA5F7C31FEA5A174837349 /* Pods-iOSPracticalPagaTodoTests-dummy.m */,
+				CC44C5772F6B2002AD5FE3ABC990C9F4 /* Pods-iOSPracticalPagaTodoTests-Info.plist */,
+				BEF98874758ACAD16FE4832B85C19440 /* Pods-iOSPracticalPagaTodoTests-umbrella.h */,
+				745EA8E5E37F19B3632FA9F91C0A53BF /* Pods-iOSPracticalPagaTodoTests.debug.xcconfig */,
+				C77D59412FB6BEDC59A45A033AA3E028 /* Pods-iOSPracticalPagaTodoTests.release.xcconfig */,
+			);
+			name = "Pods-iOSPracticalPagaTodoTests";
+			path = "Target Support Files/Pods-iOSPracticalPagaTodoTests";
+			sourceTree = "<group>";
+		};
+		7DBE31ECF8415452FAE369FD5D1ED447 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				511EFD04ABDB539A524DB823E84F9FFC /* Foundation.framework */,
+				DA7461359BE12F7FF6436C5D9D538D98 /* GLKit.framework */,
+				815E37F8991601F532F1010214B5C5A2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9FDCB30ADF6C11BB9E48665BBD393515 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9D7EC3AF74C3E681A33C8B5DCFCB1B /* Pods-iOSPracticalPagaTodo */,
+				1BB39E868E47297A30590C797484A273 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests */,
+				3C645AC9C443A90EBF3D1AA8EA0E1EAF /* Pods-iOSPracticalPagaTodoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A5D33FCA6B9D97357CE83408901C62C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D21205DC389384E3663B59F252FEF /* SideMenuSwift.modulemap */,
+				C6867E19B04E29F2AAEF14F61D2B71CF /* SideMenuSwift-dummy.m */,
+				154FB6240DD89A28A8AEB3467F64455E /* SideMenuSwift-Info.plist */,
+				0A10E1FACF8462FA3AB57569D0C3F930 /* SideMenuSwift-prefix.pch */,
+				F976CA8EFC9E9FAA27232E3BA437BA3F /* SideMenuSwift-umbrella.h */,
+				0672CDFAABA230F0568C0E71D1CE254B /* SideMenuSwift.debug.xcconfig */,
+				B463BF17715A51600A6C55D933BD3A40 /* SideMenuSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenuSwift";
+			sourceTree = "<group>";
+		};
+		B911796C3BD7A15F9D525D2706DF879D /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				79232D7ED0C185BE0619F6CBDF5C7E7C /* KVNProgress.h */,
+				1E989351A9D8757B3D9887A785D0E02E /* KVNProgress.m */,
+				C5555EAFB93105D028F780B2EF02B913 /* KVNProgressConfiguration.h */,
+				5BA5887BEBD5C65CABA2AC3E288F2116 /* KVNProgressConfiguration.m */,
+				EADFB53B5993A23C5E18F6D7DE2FAFB6 /* KVNRotationViewController.h */,
+				B4FC95447A209E48E2A735A7C07387AC /* KVNRotationViewController.m */,
+				43E545BF19DAC5D4D441A7A38788F002 /* UIColor+KVNContrast.h */,
+				B4A539E347C1BC1366567C5626A7A82B /* UIColor+KVNContrast.m */,
+				A7E6EFB3329F3ED1BE766AF8C54395DC /* UIImage+KVNEmpty.h */,
+				A67679F4BD60387CFAB588E6E31AC56B /* UIImage+KVNEmpty.m */,
+				A21965D82FF333D06ED154153CD4AC2E /* UIImage+KVNImageEffects.h */,
+				559C05B128E25114985C44A63F867EE9 /* UIImage+KVNImageEffects.m */,
+				21BCF91E2244C22D3DF350277CA047CC /* Resources */,
+				DA40C75C8296235CB18896A813607CDD /* Support Files */,
+			);
+			name = KVNProgress;
+			path = KVNProgress;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				3054F2338D0FA53E78176F78CE31B0A4 /* Pods */,
+				18434956431EBCABE3D558CCEA0BE785 /* Products */,
+				9FDCB30ADF6C11BB9E48665BBD393515 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA40C75C8296235CB18896A813607CDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B714170D867817158B9AA681D15F51 /* KVNProgress.modulemap */,
+				0A16A439C43E5E7BE05CCDCC548C2021 /* KVNProgress-dummy.m */,
+				4F78E8073CDA30C65C326E7126C8BA65 /* KVNProgress-Info.plist */,
+				B3C2DB0801C0573448DBF39E0737DBD0 /* KVNProgress-prefix.pch */,
+				FF7D6FCE64AE82DD3F64B959932045F6 /* KVNProgress-umbrella.h */,
+				0650D7FDC78C5A4CD4500003A3A056E2 /* KVNProgress.debug.xcconfig */,
+				AEB819DEEFAD5E3A18D3ABD0094CC37C /* KVNProgress.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVNProgress";
+			sourceTree = "<group>";
+		};
+		FF9D7EC3AF74C3E681A33C8B5DCFCB1B /* Pods-iOSPracticalPagaTodo */ = {
+			isa = PBXGroup;
+			children = (
+				4549AA0A4B4AA84CADE5928F8D39623C /* Pods-iOSPracticalPagaTodo.modulemap */,
+				9CCBF580157A9793A73B6760A295942A /* Pods-iOSPracticalPagaTodo-acknowledgements.markdown */,
+				5C11375677FF17A9E05AA7677642D3E2 /* Pods-iOSPracticalPagaTodo-acknowledgements.plist */,
+				01118BDA8C8F5F94B1693DAF05BBB602 /* Pods-iOSPracticalPagaTodo-dummy.m */,
+				70CA8F0EF7C2615F496F4999BF4E5F15 /* Pods-iOSPracticalPagaTodo-frameworks.sh */,
+				415C3FEC0AA0A352D7E18756668C020C /* Pods-iOSPracticalPagaTodo-Info.plist */,
+				1FD866B124AD4BB70760CEBD55AF2D9A /* Pods-iOSPracticalPagaTodo-umbrella.h */,
+				18C19E6A7018F2BB1A6B69B119F26BC2 /* Pods-iOSPracticalPagaTodo.debug.xcconfig */,
+				96666D2D88C4B99EACCB70D2EE7424BC /* Pods-iOSPracticalPagaTodo.release.xcconfig */,
+			);
+			name = "Pods-iOSPracticalPagaTodo";
+			path = "Target Support Files/Pods-iOSPracticalPagaTodo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22B19787A78D1CCB37935021164826ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D204F2E160F00B7F43073CF80C64FC90 /* Pods-iOSPracticalPagaTodoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301703FED8637CE8271F589A69AE1ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE2A50C147598E1423AC440502524E0 /* Pods-iOSPracticalPagaTodo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C1EBFCDEF1863DE43AEF7D70BB168D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C418270E061A31B67F87829DABF2A2 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94311070A2850EC97BC6D5B89FAD2E5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9220D02A5299E366EC0C766B062E45F /* SideMenu.h in Headers */,
+				3393F2A5744BAF2A3B8E8F25F20D29AB /* SideMenuSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03D1BEB36B1A80B06DFAC35F795B235 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841985EBB92AA58677B9F2FE4341CB00 /* KVNProgress-umbrella.h in Headers */,
+				EC45FF6FE26C0C748445DF0F7915D63C /* KVNProgress.h in Headers */,
+				DDF592A96B4BFDAEFFFDE07C341DEBC6 /* KVNProgressConfiguration.h in Headers */,
+				1DBE418E148DF8B9266ADABF21EDD40A /* KVNRotationViewController.h in Headers */,
+				3029D103AC57C082D903184C272D2003 /* UIColor+KVNContrast.h in Headers */,
+				28C3365170BA7B550FB3780B91261255 /* UIImage+KVNEmpty.h in Headers */,
+				4173DFD7A2C868F1139B6A6A2012640C /* UIImage+KVNImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AD86DD2247EBABF55A0EF31DA1D74C0 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F54AF9FEAC667A97D07DC24879D143 /* Build configuration list for PBXNativeTarget "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests" */;
+			buildPhases = (
+				33C1EBFCDEF1863DE43AEF7D70BB168D /* Headers */,
+				3638088BE31773C2892438BB5C08B688 /* Sources */,
+				81FFB275935889A271ACCDAEEF6EB9EC /* Frameworks */,
+				C8E9445DDDD1C301D4BB1F7077A85CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CD5CCD13C3B11EEDCC0B8CA6F14657 /* PBXTargetDependency */,
+				5CFD84E38071FC34459C1BAAB38B9EB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests";
+			productName = "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests";
+			productReference = 866B85F0D95EF37C3EEA93713B1543D7 /* Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4849FAFAB50F1413DC613F99D8EB0390 /* Pods-iOSPracticalPagaTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D4AB14B084589E690BCCCE0A2D7085 /* Build configuration list for PBXNativeTarget "Pods-iOSPracticalPagaTodoTests" */;
+			buildPhases = (
+				22B19787A78D1CCB37935021164826ED /* Headers */,
+				8A18A363E39A25743EDA5E9DC3777732 /* Sources */,
+				1868DEB68A49BC177D3F3AE4660F6198 /* Frameworks */,
+				E80453B08387D8047D7FDC554FCA1536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543C1C0361F47D6A7FBA023467EC1577 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSPracticalPagaTodoTests";
+			productName = "Pods-iOSPracticalPagaTodoTests";
+			productReference = 25DAA9AD178CAD0747DB4673EF3A44E6 /* Pods_iOSPracticalPagaTodoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A2F41A64A77B23B1A83D15750DE4281 /* Pods-iOSPracticalPagaTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFAB3753F18F46A793B2FA93DCF43E0 /* Build configuration list for PBXNativeTarget "Pods-iOSPracticalPagaTodo" */;
+			buildPhases = (
+				301703FED8637CE8271F589A69AE1ADD /* Headers */,
+				8C191ED6CB0E787C329BBFE13B68CFD7 /* Sources */,
+				1A292964E22200D70B63A17569C67CA0 /* Frameworks */,
+				0085DD5EA1E85539525D40BA7C06055D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B91A1AC0E0B0951C7FA53C6AFC4CD7B /* PBXTargetDependency */,
+				BDBB8E2C05486C946924F461890B7AA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSPracticalPagaTodo";
+			productName = "Pods-iOSPracticalPagaTodo";
+			productReference = F525803DFC61DC713C0CC701809FA867 /* Pods_iOSPracticalPagaTodo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FA20ADB1B56D96C66C8982FAE6F2AEF /* KVNProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB2C1840C07254B7332B2273EBCE958 /* Build configuration list for PBXNativeTarget "KVNProgress" */;
+			buildPhases = (
+				B03D1BEB36B1A80B06DFAC35F795B235 /* Headers */,
+				150EF1FAD1F77909A375DC68C28272B9 /* Sources */,
+				2D183AA1E3664ED788AE3F0230290E93 /* Frameworks */,
+				7EB69D54555C8C4C20709ED12401AEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVNProgress;
+			productName = KVNProgress;
+			productReference = B34CBE4F8D0BB76939C57610B88AC9B1 /* KVNProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285C963712D29FD9C44041632F236A16 /* Build configuration list for PBXNativeTarget "SideMenuSwift" */;
+			buildPhases = (
+				94311070A2850EC97BC6D5B89FAD2E5A /* Headers */,
+				A2CAA0A72D6350C9DCB93FCC586DBA43 /* Sources */,
+				A200DAF4321DD0A7CD75F25053FF5611 /* Frameworks */,
+				27EF8C731772A136BCF4DE084247279A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenuSwift;
+			productName = SideMenuSwift;
+			productReference = 6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 18434956431EBCABE3D558CCEA0BE785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA20ADB1B56D96C66C8982FAE6F2AEF /* KVNProgress */,
+				5A2F41A64A77B23B1A83D15750DE4281 /* Pods-iOSPracticalPagaTodo */,
+				3AD86DD2247EBABF55A0EF31DA1D74C0 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests */,
+				4849FAFAB50F1413DC613F99D8EB0390 /* Pods-iOSPracticalPagaTodoTests */,
+				873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0085DD5EA1E85539525D40BA7C06055D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF8C731772A136BCF4DE084247279A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB69D54555C8C4C20709ED12401AEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF830B8FAE745C8127DBD65371918C5 /* KVNProgressView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E9445DDDD1C301D4BB1F7077A85CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80453B08387D8047D7FDC554FCA1536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150EF1FAD1F77909A375DC68C28272B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C23BAA32846BB0CE14B0F1736B544 /* KVNProgress-dummy.m in Sources */,
+				0B0E679CB9DBC7CCD78297361B4EF2C2 /* KVNProgress.m in Sources */,
+				C2CAFD51455D089D5F0F75E40F34CE6D /* KVNProgressConfiguration.m in Sources */,
+				80AE6B2DBC484FFB287766467F9E41B1 /* KVNRotationViewController.m in Sources */,
+				D2D7D4E902978EA68BEA6FCA2497E452 /* UIColor+KVNContrast.m in Sources */,
+				2075F989FDDA79DEDF189451AF78C1B9 /* UIImage+KVNEmpty.m in Sources */,
+				30D538D0E59F4850FB5EC33BFD1A008F /* UIImage+KVNImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3638088BE31773C2892438BB5C08B688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CF6FD6C9EB7517827F871937EA0CA /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A18A363E39A25743EDA5E9DC3777732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75A5D14A0EC711F013C046149750C7E /* Pods-iOSPracticalPagaTodoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C191ED6CB0E787C329BBFE13B68CFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77367645EB51C4B6E46E8528F561679B /* Pods-iOSPracticalPagaTodo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CAA0A72D6350C9DCB93FCC586DBA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5BD4403829B8607F8C5777E937BA2E /* BasicTransitionAnimator.swift in Sources */,
+				0DB327E2223491A7FF9A9A8A1FDBA67D /* Delegate.swift in Sources */,
+				23F2720A4168CAD9ADD9EDF5A6438497 /* Preferences.swift in Sources */,
+				331E92669A5C7A8B36B4E1329E288E34 /* Segue.swift in Sources */,
+				A54E7DB163A4617D92401B596F4487CA /* SideMenuController.swift in Sources */,
+				48A6A72E28762A18E4609864075FF9AC /* SideMenuSwift-dummy.m in Sources */,
+				467F8F1CBD7C6CA5EE431B2E01F22227 /* StatusBar.swift in Sources */,
+				207C84743FE7C82BCC63DFDC1C27D80A /* TransitionContext.swift in Sources */,
+				CDD98EEA92CFC6BB90D2E33B04466811 /* UIView+Container.swift in Sources */,
+				D6B18C75D23CCC757E7FED786AC0480D /* UIViewController+Container.swift in Sources */,
+				8D7E528DC9BB42437F8ED4B2BD410FAE /* UIViewController+SideMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47CD5CCD13C3B11EEDCC0B8CA6F14657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVNProgress;
+			target = 6FA20ADB1B56D96C66C8982FAE6F2AEF /* KVNProgress */;
+			targetProxy = 01A17E8E4F3E0714C72A804D58442F13 /* PBXContainerItemProxy */;
+		};
+		543C1C0361F47D6A7FBA023467EC1577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOSPracticalPagaTodo";
+			target = 5A2F41A64A77B23B1A83D15750DE4281 /* Pods-iOSPracticalPagaTodo */;
+			targetProxy = 70FCDC5D343F4293306AC8E084827D67 /* PBXContainerItemProxy */;
+		};
+		5B91A1AC0E0B0951C7FA53C6AFC4CD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVNProgress;
+			target = 6FA20ADB1B56D96C66C8982FAE6F2AEF /* KVNProgress */;
+			targetProxy = FEF4FC28EBDA5F53F4D20F3669E6A5BF /* PBXContainerItemProxy */;
+		};
+		5CFD84E38071FC34459C1BAAB38B9EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuSwift;
+			target = 873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */;
+			targetProxy = 35F5F09C6CD2B03168E43392D1E20B23 /* PBXContainerItemProxy */;
+		};
+		BDBB8E2C05486C946924F461890B7AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuSwift;
+			target = 873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */;
+			targetProxy = B01B278861ADA45F2829F43737823B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04BEC6B04EEECB3514F8A59EEF8804AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C19E6A7018F2BB1A6B69B119F26BC2 /* Pods-iOSPracticalPagaTodo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AE457309F585ED7583197AF2C66A222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0672CDFAABA230F0568C0E71D1CE254B /* SideMenuSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuSwift/SideMenuSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift.modulemap";
+				PRODUCT_MODULE_NAME = SideMenuSwift;
+				PRODUCT_NAME = SideMenuSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39B9D9C1EBE108271664931ABEA63EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77D59412FB6BEDC59A45A033AA3E028 /* Pods-iOSPracticalPagaTodoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPracticalPagaTodoTests/Pods-iOSPracticalPagaTodoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPracticalPagaTodoTests/Pods-iOSPracticalPagaTodoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4360B0B1C4AB7834F9FECD240B56A444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B463BF17715A51600A6C55D933BD3A40 /* SideMenuSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuSwift/SideMenuSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift.modulemap";
+				PRODUCT_MODULE_NAME = SideMenuSwift;
+				PRODUCT_NAME = SideMenuSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F2C8FDCD73963818FCAE9B8938CCCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96666D2D88C4B99EACCB70D2EE7424BC /* Pods-iOSPracticalPagaTodo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo/Pods-iOSPracticalPagaTodo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8CD7DB2A1F062777125F8EE1A307C045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0650D7FDC78C5A4CD4500003A3A056E2 /* KVNProgress.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVNProgress/KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVNProgress/KVNProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KVNProgress/KVNProgress.modulemap";
+				PRODUCT_MODULE_NAME = KVNProgress;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4516337F50FF823CBB72FE789285B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB819DEEFAD5E3A18D3ABD0094CC37C /* KVNProgress.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVNProgress/KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVNProgress/KVNProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KVNProgress/KVNProgress.modulemap";
+				PRODUCT_MODULE_NAME = KVNProgress;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0E1D5CD8D99E8491FB6F5DBCA10B472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6604567C675F74DF30829DAFD4A788 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E54C2707CB371E48C6DFEC4D44BD9996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745EA8E5E37F19B3632FA9F91C0A53BF /* Pods-iOSPracticalPagaTodoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPracticalPagaTodoTests/Pods-iOSPracticalPagaTodoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPracticalPagaTodoTests/Pods-iOSPracticalPagaTodoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7947BE33F1ECA414888ACEFD495F4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8C38B17482FA28A3B77E56A2404A37 /* Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests/Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FB2C1840C07254B7332B2273EBCE958 /* Build configuration list for PBXNativeTarget "KVNProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD7DB2A1F062777125F8EE1A307C045 /* Debug */,
+				B4516337F50FF823CBB72FE789285B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F54AF9FEAC667A97D07DC24879D143 /* Build configuration list for PBXNativeTarget "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E1D5CD8D99E8491FB6F5DBCA10B472 /* Debug */,
+				F7947BE33F1ECA414888ACEFD495F4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285C963712D29FD9C44041632F236A16 /* Build configuration list for PBXNativeTarget "SideMenuSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE457309F585ED7583197AF2C66A222 /* Debug */,
+				4360B0B1C4AB7834F9FECD240B56A444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CFAB3753F18F46A793B2FA93DCF43E0 /* Build configuration list for PBXNativeTarget "Pods-iOSPracticalPagaTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BEC6B04EEECB3514F8A59EEF8804AB /* Debug */,
+				4F2C8FDCD73963818FCAE9B8938CCCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D4AB14B084589E690BCCCE0A2D7085 /* Build configuration list for PBXNativeTarget "Pods-iOSPracticalPagaTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54C2707CB371E48C6DFEC4D44BD9996 /* Debug */,
+				39B9D9C1EBE108271664931ABEA63EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

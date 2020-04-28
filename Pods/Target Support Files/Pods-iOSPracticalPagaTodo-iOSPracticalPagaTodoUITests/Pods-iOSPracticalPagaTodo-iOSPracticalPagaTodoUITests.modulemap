@@ -1,0 +1,6 @@
+framework module Pods_iOSPracticalPagaTodo_iOSPracticalPagaTodoUITests {
+  umbrella header "Pods-iOSPracticalPagaTodo-iOSPracticalPagaTodoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

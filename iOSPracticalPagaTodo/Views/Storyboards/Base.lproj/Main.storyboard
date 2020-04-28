@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1en-zd-1KQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--iOS Engineer Practical Test-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BankFirstViewController" customModule="iOSPracticalPagaTodo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_home" translatesAutoresizingMaskIntoConstraints="NO" id="B4j-e6-CYA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Ricardo Manterola Morales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTL-gY-kYv">
+                                <rect key="frame" x="59" y="404" width="296" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="ItZ-CN-lbl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPg-0P-q63">
+                                <rect key="frame" x="59" y="632" width="296" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.36078431372549019" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="296" id="BnS-cl-wEV"/>
+                                    <constraint firstAttribute="height" constant="60" id="vCG-Wc-6jv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="22"/>
+                                <state key="normal" title="See Banks List">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToListAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EmW-jl-pOG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7J-d0-87i">
+                                <rect key="frame" x="59" y="500" width="296" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="WQK-Pj-LaK"/>
+                                </constraints>
+                                <string key="text">IOS Swift developer, mobile developer with organization skills, teamwork, UX user experience, usability, swift developer, Scrum methodology</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cTL-gY-kYv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3zR-i2-kh3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cTL-gY-kYv" secondAttribute="trailing" constant="59" id="6Aj-d9-WWQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f7J-d0-87i" secondAttribute="trailing" constant="59" id="Ecp-ln-7pN"/>
+                            <constraint firstItem="QPg-0P-q63" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="Tyt-WV-FrI"/>
+                            <constraint firstItem="cTL-gY-kYv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WHe-ib-UOI"/>
+                            <constraint firstItem="cTL-gY-kYv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="Xnb-F9-3qY"/>
+                            <constraint firstItem="QPg-0P-q63" firstAttribute="top" secondItem="f7J-d0-87i" secondAttribute="bottom" constant="32" id="mTL-MD-xf8"/>
+                            <constraint firstItem="f7J-d0-87i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="oX3-M6-AmH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QPg-0P-q63" secondAttribute="trailing" constant="59" id="r2q-lg-Gex"/>
+                            <constraint firstItem="f7J-d0-87i" firstAttribute="top" secondItem="cTL-gY-kYv" secondAttribute="bottom" constant="8" id="vrJ-dj-bUa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS Engineer Practical Test" id="NGd-OK-8UD">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon" id="ZOD-10-yWO">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="openMenuAction:" destination="BYZ-38-t0r" id="rqy-vk-Hxx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960.86956521739137" y="172.76785714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fxW-Sl-IHA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jMM-fI-gs2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yxs-CU-7Yn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JQV-Lm-GK9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3q-pq-QgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="173"/>
+        </scene>
+        <!--menuStoryboard-->
+        <scene sceneID="uKX-4V-qRS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MenuStoryboard" referencedIdentifier="menuStoryboard" id="qWN-Ve-6gz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYh-PF-Olq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="-632"/>
+        </scene>
+        <!--Side Menu Controller-->
+        <scene sceneID="9tR-P6-vtn">
+            <objects>
+                <viewController id="1en-zd-1KQ" customClass="SideMenuController" customModule="SideMenuSwift" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nEY-YK-duf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FMM-Xb-u4N"/>
+                    </view>
+                    <connections>
+                        <segue destination="qWN-Ve-6gz" kind="custom" identifier="SideMenu.Menu" customClass="SideMenuSegue" customModule="SideMenuSwift" id="GS5-eQ-hvg"/>
+                        <segue destination="jMM-fI-gs2" kind="custom" identifier="SideMenu.Content" customClass="SideMenuSegue" customModule="SideMenuSwift" id="ajS-pl-GCf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PPf-sD-cb6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-822" y="-226"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_home" width="621" height="1104"/>
+        <image name="menu_icon" width="20" height="20"/>
+    </resources>
+</document>

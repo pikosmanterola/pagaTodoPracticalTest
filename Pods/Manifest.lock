@@ -1,0 +1,20 @@
+PODS:
+  - KVNProgress (2.3.5)
+  - SideMenuSwift (2.0.5)
+
+DEPENDENCIES:
+  - KVNProgress
+  - SideMenuSwift (~> 2.0.3)
+
+SPEC REPOS:
+  trunk:
+    - KVNProgress
+    - SideMenuSwift
+
+SPEC CHECKSUMS:
+  KVNProgress: d7046cce142f1aeb740db39dc3cacfe910fac354
+  SideMenuSwift: c7d99c270e0fad922a14b81f1dcc7a84c764bcd5
+
+PODFILE CHECKSUM: 540241fc6e3033f8c2ff95b69024fad97c5771a4
+
+COCOAPODS: 1.9.1
